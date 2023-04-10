@@ -41,4 +41,5 @@ int main() {
     Matakuliah MK;
 
     cout << "Masukan NIM= ";
+    cin >> mhs.nim;
 }
