@@ -21,3 +21,5 @@ public:
     void inputMK() {
         cout << "\nMasukan jumlah SKS= ";
         cin >> sks;
+        cout << "\nMasukan kode MK= ";
+        cin >> kode;
