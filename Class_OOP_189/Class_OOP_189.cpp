@@ -2,12 +2,12 @@
 using namespace std;
 
 class Mahasiswa {
-    public;
+public;
     int nim;
     string nama;
     void tampil() {
         cout << "NIM= " << nim;
-        cout << "\nNama= "n << nama;
+        cout << "\nNama= " << nama;
     }
 };
 
@@ -15,14 +15,17 @@ class Matakuliah {
 private:
     int sks;
     string kode;
-    string namaMK;
+    string namaMk;
 
 public:
     void inputMK() {
+
         cout << "\nMasukan jumlah SKS= ";
         cin >> sks;
         cout << "\nMasukan kode MK= ";
         cin >> kode;
-        cout << " \nMasukan Nama MK << endl;
-            cin >> namaMK;
+        cout << " \nMasukan Nama MK= ";
+            cin >> namaMk;
     }
+
+    void tampilMK() {
