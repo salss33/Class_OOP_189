@@ -42,4 +42,9 @@ int main() {
 
     cout << "Masukan NIM= ";
     cin >> mhs.nim;
+    cout << "Masukan nama= ";
+    cin >> mhs.nama;
+    mhs.tampil();
+    MK.inputMK();
+    MK.tampilMK();
 }
