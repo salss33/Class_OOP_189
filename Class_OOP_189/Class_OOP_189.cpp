@@ -13,4 +13,4 @@ class Mahasiswa {
 
 class Matakuliah {
 private:
-};
+    int sks;
