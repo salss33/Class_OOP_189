@@ -19,3 +19,4 @@ private:
 
 public:
     void inputMK() {
+        cout << "\nMasukan jumlah SKS= ";
