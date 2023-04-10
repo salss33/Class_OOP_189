@@ -2,7 +2,7 @@
 using namespace std;
 
 class Mahasiswa {
-public;
+public:
     int nim;
     string nama;
     void tampil() {
@@ -25,10 +25,17 @@ public:
         cout << "\nMasukan kode MK= ";
         cin >> kode;
         cout << " \nMasukan Nama MK= ";
-            cin >> namaMk;
+        cin >> namaMk;
     }
 
     void tampilMK() {
         cout << "n\Jumlah sks= " << sks;
-        cout << "\nKode MK=  << kode;
+        cout << "\nKode MK=" << kode;
         cout << "\nNama MK= " << namaMk << endl;
+
+    }
+};
+
+int main() {
+    Mahasiswa mhs;
+}
