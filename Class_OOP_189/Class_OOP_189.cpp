@@ -14,3 +14,4 @@ class Mahasiswa {
 class Matakuliah {
 private:
     int sks;
+    string kode;
