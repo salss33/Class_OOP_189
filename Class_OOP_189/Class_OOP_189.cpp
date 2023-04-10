@@ -2,7 +2,11 @@
 using namespace std;
 
 class Mahasiswa {
-public;
+    public;
     int nim;
     string nama;
     void tampil() {
+        cout << "NIM= " << nim;
+        cout << "\nNama= "n << nama;
+    }
+};
