@@ -10,3 +10,7 @@ class Mahasiswa {
         cout << "\nNama= "n << nama;
     }
 };
+
+class Matakuliah {
+private:
+};
