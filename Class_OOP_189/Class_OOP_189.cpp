@@ -40,4 +40,5 @@ int main() {
     Mahasiswa mhs;
     Matakuliah MK;
 
+    cout << "Masukan NIM= ";
 }
